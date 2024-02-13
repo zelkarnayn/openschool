@@ -1,0 +1,14 @@
+.banner__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1260px;
+    height: 745px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.banner__image {
+    width: 370px;
+    height: 625px;
+    margin-left: 100px;
+}

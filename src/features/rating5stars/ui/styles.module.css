@@ -1,0 +1,5 @@
+.rating5__wrapper {
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+}

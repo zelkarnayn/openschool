@@ -1,0 +1,14 @@
+
+.logo__wrapper {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 63px;
+}
+
+.logo__title {
+    font-family: Poppins, serif;
+    color: #6C5FBC;
+    font-size: 21px;
+}

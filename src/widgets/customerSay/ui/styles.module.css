@@ -1,0 +1,32 @@
+.customer__wrapper {
+    width: 1248px;
+    margin-top: 115px;
+    margin-bottom: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.customer__title {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 80px;
+
+    span {
+        color: #6C5FBC;
+    }
+}
+
+.customer__main {
+    display: flex;
+    gap: 45px;
+
+    justify-content: space-between;
+}
+
+.customer__items {
+    display: flex;
+    overflow: revert;
+    margin-bottom: 88px;
+}

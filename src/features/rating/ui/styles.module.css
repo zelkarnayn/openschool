@@ -1,0 +1,16 @@
+.rating__wrapper {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 25px;
+}
+
+.rating__title {
+    font-family: Manrope, sans-serif;
+    font-size: 19px;
+    line-height: 26px;
+    color: #8E97A6;
+    margin-left: 5px;
+}

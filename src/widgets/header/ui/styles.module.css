@@ -1,0 +1,6 @@
+.header__wrapper {
+    display: flex;
+    width: 1248px;
+    padding: 45px 0;
+    border-bottom: 1px solid #CBCBCB;
+}

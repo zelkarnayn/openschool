@@ -1,0 +1,31 @@
+.custom-button {
+    font-size: 16px;
+    font-family: Poppins-Medium, sans-serif;
+    letter-spacing: 1px;
+    min-width: 110px;
+    padding: 0 25px;
+    height: 60px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #6C5FBC;
+    border-radius: 15px;
+}
+
+.custom-button.primary {
+    background-color: #6C5FBC;
+    color: #F9F9F9;
+}
+
+.custom-button.light {
+    background-color: #F9F9F9;
+    color: #6C5FBC;
+}
+
+.custom-button.direct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #6C5FBC;
+    color: #F9F9F9;
+}

@@ -1,0 +1,101 @@
+.purchases__wrapper {
+    box-sizing: border-box;
+    width: 535px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    border: 2px solid #EDF2F7;
+    box-shadow: 0 50px 50px 0 #d7d7d7;
+
+}
+
+.purchases__title {
+    font-family: Manrope, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1A202C;
+}
+
+.purchases__month {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Manrope, sans-serif;
+    font-size: 19px;
+    color: #1A202C;
+    width: 175px;
+    height: 55px;
+    border-radius: 15px;
+    font-weight: 500;
+    background-color: #FAFAFA;
+
+    span {
+        display: flex;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 9px;
+        margin-left: 9px;
+    }
+}
+
+.purchases__widgets {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.purchases__header {
+    width: 460px;
+    margin: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat__subcriptions {
+    width: 140px;
+    margin-left: 20px;
+}
+
+.stat__info {
+    display: flex;
+    align-items: center;
+}
+
+.purchases__stat {
+    box-sizing: border-box;
+    display: flex;
+    width: 460px;
+    height: 135px;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid #EDF2F7;
+    flex-direction: column;
+}
+
+.stat__title {
+    font-family: Manrope, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: #1A202C;
+}
+
+.stat__discount {
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    color: #A0AEC0;
+}
+
+.purchases__price {
+    display: flex;
+    justify-content: end;
+    width: 200px;
+    font-family: Manrope, sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+}

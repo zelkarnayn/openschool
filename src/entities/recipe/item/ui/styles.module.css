@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: local('Poppins'), url("../../../../shared/fonts/poppins/Poppins-Regular.ttf");
+}
+
+.recipe__wrapper {
+    width: 395px;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    box-shadow: 10px 60px 50px 0 #e0e0e0;
+}
+
+.recipe__image {
+    transition: all .5s;
+}
+
+.recipe__wrapper:hover {
+     .recipe__image {
+         transform: scaleY(.8) translateY(-22px);
+     }
+    .recipe__bookmark {
+        cursor: pointer;
+        opacity: 1;
+    }
+}
+
+.recipe__label {
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    width: 45px;
+    height: 25px;
+    margin: 10px 0 0 33px;
+    background-color: #F7EDD0;
+    color: #DAA31A;
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.recipe__bookmark {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.recipe__title {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    margin-left: 33px;
+
+    img {
+        margin-right: 26px;
+    }
+}
+
+.recipe__info {
+    display: flex;
+}
+
+.recipe__time {
+    font-family: "Manrope", sans-serif;
+    font-size: 19px;
+    line-height: 26px;
+    color: #8E97A6;
+    margin-left: 33px;
+}

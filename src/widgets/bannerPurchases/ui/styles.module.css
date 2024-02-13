@@ -1,0 +1,34 @@
+.purchases__wrapper {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    width: 1248px;
+    height: 600px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.purchases__title {
+    width: 500px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 58px;
+    padding-right: 50px;
+
+    span {
+        color: #6C5FBC;
+    }
+}
+
+.purchases__info {
+    display: flex;
+    height: 465px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.purchases__items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
