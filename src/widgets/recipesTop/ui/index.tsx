@@ -6,9 +6,9 @@ import arrow from './static/Component 9.png'
 function RecipesTop() {
     return (
         <div className={styles.recipes__wrapper}>
-            <header>
+            <h3>
                 Our Top <span>Recipes</span>
-            </header>
+            </h3>
             <main className={styles.recipes__main}>
                 <RecipeItem image={recipe1} title={'The Chicken King'} category={'Pizza'} timeCount={24} rating={4.8}/>
                 <RecipeItem image={recipe2} title={'The Burger King'} category={'Pizza'} timeCount={24} rating={4.9}/>

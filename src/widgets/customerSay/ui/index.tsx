@@ -4,7 +4,7 @@ import line from './static/Group 427320327.svg'
 function CustomerSay() {
     return (
         <div className={styles.customer__wrapper}>
-            <header className={styles.customer__title}><span>Customer</span> Say</header>
+            <h3 style={{marginBottom: '80px'}}><span>Customer</span> Say</h3>
             <main className={styles.customer__main}>
                 <FeedbackItem focus={true}/>
                 <div className={styles.customer__others}>

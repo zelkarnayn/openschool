@@ -10,19 +10,11 @@
 .questions__image {
     position: absolute;
     top: -50px;
-    right: 470px;
+    right: 380px;
 }
 
 .questions__title {
     text-align: center;
-    line-height: 120%;
     width: 400px;
-    font-family: Poppins, sans-serif;
-    font-weight: 500;
-    font-size: 45px;
     margin-bottom: 80px;
-
-    span {
-        color: #6C5FBC;
-    }
 }

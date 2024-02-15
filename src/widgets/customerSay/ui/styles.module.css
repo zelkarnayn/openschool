@@ -7,17 +7,6 @@
     flex-direction: column;
 }
 
-.customer__title {
-    font-family: Poppins, sans-serif;
-    font-weight: 500;
-    font-size: 45px;
-    margin-bottom: 80px;
-
-    span {
-        color: #6C5FBC;
-    }
-}
-
 .customer__main {
     display: flex;
     gap: 45px;

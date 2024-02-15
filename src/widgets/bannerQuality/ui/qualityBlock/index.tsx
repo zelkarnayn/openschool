@@ -4,9 +4,9 @@ import vector from '../../static/Vector 14.svg'
 function QualityBlock() {
     return (
         <div className={styles.enjoyBlock__wrapper}>
-            <div className={styles.enjoyBlock__title}>
+            <h2>
                 Premium  <span>Quality</span> For Your Health
-            </div>
+            </h2>
             <ul className={styles.enjoyBlock__subtitle}>
                 <li>
                     Premium quality food is made with ingredients that are packed with essential vitamins, minerals.

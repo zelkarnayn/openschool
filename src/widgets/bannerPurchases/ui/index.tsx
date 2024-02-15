@@ -8,9 +8,9 @@ function BannerPurchases() {
     return (
         <div className={styles.purchases__wrapper}>
             <div className={styles.purchases__info}>
-                <div className={styles.purchases__title}>
+                <h2>
                     Control <span>Purchases</span> Via Dashboard
-                </div>
+                </h2>
                 <div className={styles.purchases__items}>
                     <DashboardItem title={'Chicken Hell'} status={'On The Way'} time={'3:09 PM'} image={purcha1} first={true}/>
                     <DashboardItem title={'Swe Dish'} status={'Delivered'} time={'Yesterday'} image={purcha2}/>
