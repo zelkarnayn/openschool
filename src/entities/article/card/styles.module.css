@@ -12,10 +12,14 @@
     gap: 25px;
 
     header {
+        width: 300px;
         font-family: Poppins, sans-serif;
         font-size: 21px;
         line-height: 25px;
         color: #252525;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 

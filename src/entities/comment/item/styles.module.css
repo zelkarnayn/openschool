@@ -1,0 +1,27 @@
+.comment__wrapper {
+    box-sizing: border-box;
+    padding: 38px 45px;
+    width: 1135px;
+    height: 170px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 100px lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment__username {
+    font-family: Poppins-Medium, sans-serif;
+    font-size: 21px;
+    color: #030314;
+    margin-bottom: 22px;
+}
+
+.comment__text {
+    font-family: Poppins, serif;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 18px;
+    color: #636363;
+}

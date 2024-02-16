@@ -16,6 +16,7 @@ h1 {
     letter-spacing: -3px;
     line-height: 120%;
     font-weight: 600;
+    color: #252525;
 
     span {
         color: #6C5FBC;
@@ -30,6 +31,7 @@ h2 {
     font-weight: 600;
     font-size: 51px;
     line-height: 58px;
+    color: #252525;
 
     span {
         color: #6C5FBC;
@@ -42,10 +44,29 @@ h3 {
     font-family: Poppins, sans-serif;
     font-size: 45px;
     font-weight: 500;
+    color: #252525;
 
     span {
         color: #6C5FBC;
     }
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: #252525;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #252525;
 }
 
 .App {

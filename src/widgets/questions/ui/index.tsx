@@ -3,7 +3,7 @@ import Question from "../../../entities/question/ui";
 import klyaksa from './static/Illustration 01.svg'
 function Questions() {
     return (
-        <div className={styles.questions__wrapper}>
+        <div className={styles.questions__wrapper} id='faq'>
             <h3 className={styles.questions__title}>
                 Frequently Asked <span>Questions</span>
                 <img src={klyaksa} alt={'klyaksa'} className={styles.questions__image}/>
