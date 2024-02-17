@@ -34,7 +34,10 @@ export const getArticleCards = createAsyncThunk('articles-card/get',
     async ({skip = 0}: {limit: number, skip: number}, thunkAPI) => {
     try {
         const res = await axios.get(`https://dummyjson.com/posts?limit=12&skip=${skip}&select=title,reactions,tags,body`)
-        return thunkAPI.fulfillWithValue(res.data)
+        if (res.status === 200) {
+            return thunkAPI.fulfillWithValue(res.data)
+        }
+        return thunkAPI.rejectWithValue(res)
     } catch (e) {
         return thunkAPI.rejectWithValue(e)
     }
@@ -44,7 +47,10 @@ export const getOneArticle = createAsyncThunk('article-one/get',
     async ({postId}:{postId: number}, thunkAPI) => {
         try {
             const res = await axios.get(`https://dummyjson.com/posts/${postId}`)
-            return thunkAPI.fulfillWithValue(res.data)
+            if (res.status === 200) {
+                return thunkAPI.fulfillWithValue(res.data)
+            }
+            return thunkAPI.rejectWithValue(res)
         } catch (e) {
             return thunkAPI.rejectWithValue(e)
         }

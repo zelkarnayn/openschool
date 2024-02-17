@@ -17,11 +17,17 @@
 
 .recipe__image {
     transition: all .5s;
+
+    img {
+        border-radius: 30px 30px 0 0;
+        width: 395px;
+        height: 175px;
+    }
 }
 
 .recipe__wrapper:hover {
      .recipe__image {
-         transform: scaleY(.8) translateY(-22px);
+         transform: scaleY(.8) translateY(-26px);
      }
     .recipe__bookmark {
         cursor: pointer;
@@ -29,13 +35,17 @@
     }
 }
 
+.recipe__tags {
+    display: flex;
+    margin: 10px 0 0 33px;
+    gap: 5px;
+}
+
 .recipe__label {
     display: inline-block;
     text-align: center;
-    padding-top: 5px;
-    width: 45px;
+    padding: 6px 5px 0 5px;
     height: 25px;
-    margin: 10px 0 0 33px;
     background-color: #F7EDD0;
     color: #DAA31A;
     font-family: Poppins-Regular, sans-serif;
@@ -49,13 +59,20 @@
 }
 
 .recipe__title {
-    cursor: pointer;
     display: flex;
     align-items: center;
+    width: 400px;
     justify-content: space-between;
-    font-family: Poppins, sans-serif;
-    font-size: 26px;
-    margin-left: 33px;
+
+    span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: pointer;
+        font-family: Poppins, sans-serif;
+        font-size: 26px;
+        margin-left: 33px;
+    }
 
     img {
         margin-right: 26px;

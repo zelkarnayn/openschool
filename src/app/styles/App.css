@@ -1,11 +1,11 @@
 @font-face {
     font-family: Poppins;
-    src: local('Poppins'), url("../shared/fonts/poppins/Poppins-SemiBold.ttf") format('truetype');
+    src: local('Poppins'), url("../../shared/fonts/poppins/Poppins-SemiBold.ttf") format('truetype');
 }
 
 @font-face {
     font-family: Poppins-Medium;
-    src: local('Poppins'), url("../shared/fonts/poppins/Poppins-Medium.ttf");
+    src: local('Poppins'), url("../../shared/fonts/poppins/Poppins-Medium.ttf");
 }
 
 h1 {
