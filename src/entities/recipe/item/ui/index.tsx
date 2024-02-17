@@ -5,7 +5,7 @@ import mark from './static/Bookmark.svg'
 type Recipe = {
     image: string
     title: string
-    category: string
+    category: string[]
     timeCount: number
     rating: number
 }
@@ -16,11 +16,15 @@ function RecipeItem({image, category, rating, timeCount, title}: Recipe) {
                 <img src={image} alt={title}/>
             </div>
             <main>
-                <label className={styles.recipe__label}>
-                    {category}
-                </label>
+                <div className={styles.recipe__tags}>
+                    {category.map((item, index) =>
+                        <label key={index} className={styles.recipe__label}>
+                            {item}
+                        </label>
+                    )}
+                </div>
                 <div className={styles.recipe__title}>
-                    {title}
+                <span>{title}</span>
                     <img src={mark} alt={'bookmark'} className={styles.recipe__bookmark}/>
                 </div>
                 <div className={styles.recipe__info}>

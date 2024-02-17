@@ -9,9 +9,7 @@ function CarouselComments() {
 
     useEffect(() => {
         dispatch(getMainComments())
-    }, []);
-
-    console.log(comments)
+    }, [dispatch]);
 
     return (
         <div style={{width: '1440px'}}>
@@ -22,7 +20,7 @@ function CarouselComments() {
                 speed={7}
             >
                 {comments.map((item) =>
-                    <div className={styles.comment__wrapper} style={{marginTop: '100px', marginBottom: '100px'}}>
+                    <div key={item.id} className={styles.comment__wrapper} style={{marginTop: '100px', marginBottom: '100px'}}>
                         <div className={styles.comment__info}>
                             <div className={styles.comment__username}>@{item.user.username}</div>
                             <div className={styles.comment__text}>{item.body}</div>

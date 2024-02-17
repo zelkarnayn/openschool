@@ -6,18 +6,12 @@ function Menu() {
     return (
         <nav className={styles.menu__wrapper}>
             <ul className={styles.menu__ul}>
-                <Scroll
-                      to="ourtop"
-                      spy={true}
-                      smooth={true}
-                      offset={5}
-                      duration={1000}><li className={styles.menu__li}>Recipes</li></Scroll>
-                <Scroll
-                    to="faq"
-                    spy={true}
-                    smooth={true}
-                    offset={5}
-                    duration={1000}><li className={styles.menu__li}>FAQ</li></Scroll>
+                <Scroll to="ourtop" spy={true} smooth={true} offset={5} duration={1000}>
+                    <Link style={{textDecoration: 'none', color: 'inherit'}} to={'/'}><li className={styles.menu__li}>Recipes</li></Link>
+                </Scroll>
+                <Scroll to="faq" spy={true} smooth={true} offset={5} duration={1000}>
+                    <Link style={{textDecoration: 'none', color: 'inherit'}} to={'/'}><li className={styles.menu__li}>FAQ</li></Link>
+                </Scroll>
                 <Link style={{textDecoration: 'none', color: 'inherit'}} to={'/blog'}><li className={styles.menu__li}>Blog</li></Link>
             </ul>
         </nav>
