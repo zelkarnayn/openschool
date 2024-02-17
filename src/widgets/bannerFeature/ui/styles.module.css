@@ -9,10 +9,6 @@
     background-image: url("../static/BG.png");
 }
 
-.feature__main {
-
-}
-
 .feature__block {
     display: flex;
     flex-direction: column;
