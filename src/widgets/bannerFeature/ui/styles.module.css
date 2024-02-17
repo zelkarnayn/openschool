@@ -39,3 +39,19 @@
     border-left: 1px solid #C5C5C5;
     border-right: 1px solid #C5C5C5;
 }
+
+@media screen and (max-width: 768px) {
+    .feature__wrapper {
+        width: 768px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .feature__main {
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}

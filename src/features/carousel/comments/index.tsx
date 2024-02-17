@@ -12,7 +12,7 @@ function CarouselComments() {
     }, [dispatch]);
 
     return (
-        <div style={{width: '1440px'}}>
+        <div className={styles.comments__wrapper}>
             {comments.length && <ScrollCarousel
                 margin={40}
                 autoplay

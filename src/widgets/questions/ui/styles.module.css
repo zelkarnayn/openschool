@@ -18,3 +18,13 @@
     width: 400px;
     margin-bottom: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    .questions__title {
+        margin-bottom: 30px;
+    }
+    .questions__wrapper {
+        margin-bottom: 80px;
+    }
+
+}

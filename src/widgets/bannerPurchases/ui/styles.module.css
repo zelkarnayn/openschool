@@ -3,7 +3,7 @@
     margin-top: 130px;
     justify-content: space-between;
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     border-bottom: 1px solid #CBCBCB;
 }
 
@@ -18,4 +18,19 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .purchases__wrapper {
+        padding-bottom: 80px;
+        margin-top: 80px;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .purchases__items {
+        align-items: center;
+    }
+
 }

@@ -1,0 +1,13 @@
+.mainpage__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1250px;
+}
+
+@media screen and (max-width: 768px) {
+    .mainpage__wrapper {
+        width: 768px;
+    }
+
+}

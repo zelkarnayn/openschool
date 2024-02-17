@@ -1,3 +1,4 @@
+import styles from './styles.module.css'
 import BannerEnjoy from "../widgets/bannerEnjoy/ui";
 import BannerFeature from "../widgets/bannerFeature/ui";
 import BannerQuality from "../widgets/bannerQuality/ui";
@@ -8,7 +9,7 @@ import LunchTop from "../widgets/lunchTop/ui";
 
 function MainPage() {
     return (
-        <div style={{width: '1248px', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <div className={styles.mainpage__wrapper}>
             <BannerEnjoy/>
             <BannerFeature/>
             <BannerQuality/>

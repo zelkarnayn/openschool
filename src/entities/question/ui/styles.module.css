@@ -43,3 +43,13 @@
         margin-left: .75em;
         background: url('./static/minus.svg') no-repeat;
 }
+
+@media screen and (max-width: 768px) {
+        .question__summary {
+                width: 700px;
+        }
+        .question__details {
+                width: 700px;
+        }
+
+}

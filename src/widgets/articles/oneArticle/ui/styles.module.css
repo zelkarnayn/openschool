@@ -2,7 +2,7 @@
     padding-top: 125px;
     display: flex;
     flex-direction: column;
-    width: 1248px;
+    width: 100%;
 }
 
 .article__author {
@@ -92,4 +92,28 @@
     gap: 120px;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .article__wrapper {
+        padding-top: 80px;
+        align-items: center;
+        h4 {
+            padding: 0 40px;
+        }
+    }
+    .article__author {
+        width: 90%;
+    }
+    .article__main {
+        width: 90%;
+    }
+    .article__button {
+        margin-bottom: 80px;
+    }
+    .author__comments {
+        gap: 50px;
+    }
+
 }

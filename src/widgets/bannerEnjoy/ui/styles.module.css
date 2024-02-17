@@ -2,5 +2,26 @@
     display: flex;
     position: relative;
     width: 100%;
-    height: 765px;
+    min-height: 765px;
+}
+
+.hero__wrapper {
+    position: absolute;
+    margin-top: 50px;
+    right: -45px;
+}
+
+@media screen and (max-width: 768px) {
+    .bannerEnjoy__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__wrapper {
+        right: 0;
+        position: relative;
+        margin-bottom: 100px;
+    }
+
 }

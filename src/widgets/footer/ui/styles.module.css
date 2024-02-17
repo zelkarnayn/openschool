@@ -10,7 +10,7 @@
 }
 
 .footer__main {
-    width: 1248px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #818181;
@@ -19,7 +19,7 @@
 
 .footer__social {
     margin-top: 57px;
-    width: 1248px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -35,4 +35,16 @@
     font-family: "Inter", sans-serif;
     font-size: 17px;
     color: #999999;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__wrapper {
+        width: 768px;
+    }
+    .footer__main {
+        justify-content: space-around;
+    }
+    .footer__social {
+        justify-content: space-around;
+    }
 }

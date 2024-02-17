@@ -4,8 +4,12 @@ import HeroBlock from "./heroBlock";
 function BannerEnjoy() {
     return (
         <div className={styles.bannerEnjoy__wrapper}>
-            <EnjoyBlock/>
-            <HeroBlock/>
+            <div>
+                <EnjoyBlock/>
+            </div>
+            <div>
+                <HeroBlock/>
+            </div>
         </div>
     );
 }
