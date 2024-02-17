@@ -8,7 +8,7 @@ import Questions from "../widgets/questions/ui";
 
 function MainPage() {
     return (
-        <div>
+        <div style={{width: '1248px', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <BannerEnjoy/>
             <BannerFeature/>
             <BannerQuality/>

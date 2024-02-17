@@ -1,7 +1,9 @@
 .comment__wrapper {
     box-sizing: border-box;
     padding: 38px 45px;
-    width: 1135px;
+    width: 100%;
+    max-width: 1135px;
+    min-width: 600px;
     height: 170px;
     background-color: #FFFFFF;
     border-radius: 20px;

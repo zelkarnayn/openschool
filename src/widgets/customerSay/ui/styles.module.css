@@ -1,21 +1,8 @@
 .customer__wrapper {
     width: 1248px;
     margin-top: 115px;
-    margin-bottom: 230px;
+    margin-bottom: 130px;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.customer__main {
-    display: flex;
-    gap: 45px;
-
-    justify-content: space-between;
-}
-
-.customer__items {
-    display: flex;
-    overflow: revert;
-    margin-bottom: 88px;
 }
