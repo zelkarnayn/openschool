@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1250px;
+    width: 90%;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
     .mainpage__wrapper {
         width: 768px;
     }
-
 }

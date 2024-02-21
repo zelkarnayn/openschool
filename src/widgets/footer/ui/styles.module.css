@@ -1,6 +1,6 @@
 .footer__wrapper {
     box-sizing: border-box;
-    width: 1440px;
+    width: 100%;
     height: 345px;
     background-color: #EAEAEA;
     display: flex;
@@ -10,7 +10,7 @@
 }
 
 .footer__main {
-    width: 1250px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #818181;
@@ -19,7 +19,7 @@
 
 .footer__social {
     margin-top: 57px;
-    width: 1250px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }

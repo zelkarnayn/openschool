@@ -9,15 +9,19 @@ import LunchTop from "../widgets/lunchTop/ui";
 
 function MainPage() {
     return (
-        <div className={styles.mainpage__wrapper}>
-            <BannerEnjoy/>
-            <BannerFeature/>
-            <BannerQuality/>
-            <LunchTop/>
-            <BannerPurchases/>
-            <CustomerSay/>
-            <Questions/>
-        </div>
+        <>
+            <div className={styles.mainpage__wrapper}>
+                <BannerEnjoy/>
+            </div>
+                <BannerFeature/>
+            <div className={styles.mainpage__wrapper}>
+                <BannerQuality/>
+                <LunchTop/>
+                <BannerPurchases/>
+                <CustomerSay/>
+                <Questions/>
+            </div>
+        </>
     );
 }
 
