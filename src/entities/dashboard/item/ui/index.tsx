@@ -5,11 +5,10 @@ type Purchases = {
     title: string,
     status: string,
     time: string,
-    first?: boolean
 }
-function DashboardItem({image, status, time, title, first}: Purchases) {
+function DashboardItem({image, status, time, title}: Purchases) {
     return(
-        <div className={!first ? styles.dashboard__wrapper: styles.dashboard__wrapper_shadow}>
+        <div className={styles.dashboard__wrapper}>
             <img src={image} alt={title} className={styles.dashboard__image}/>
             <div className={styles.dashboard__block}>
                 <div className={styles.dashboard__title}>{title}</div>

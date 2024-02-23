@@ -1,5 +1,6 @@
 .card__wrapper {
     width: 350px;
+    min-height: 250px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;

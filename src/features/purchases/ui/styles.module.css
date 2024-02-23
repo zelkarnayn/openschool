@@ -32,7 +32,6 @@
     border-radius: 15px;
     font-weight: 500;
     background-color: #FAFAFA;
-
     span {
         display: flex;
         font-size: 25px;
@@ -40,6 +39,10 @@
         margin-bottom: 9px;
         margin-left: 9px;
     }
+}
+
+.purchases__month:hover {
+    color: #6155AE;
 }
 
 .purchases__widgets {
@@ -76,6 +79,13 @@
     border-radius: 20px;
     border: 2px solid #EDF2F7;
     flex-direction: column;
+    transition: all .3s;
+}
+
+.purchases__stat:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    border-color: #6155AE;
 }
 
 .stat__title {
@@ -86,6 +96,7 @@
 }
 
 .stat__discount {
+    margin-top: 10px;
     font-family: Manrope, sans-serif;
     font-size: 16px;
     color: #A0AEC0;

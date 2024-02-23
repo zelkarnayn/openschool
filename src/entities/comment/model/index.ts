@@ -70,7 +70,6 @@ const commentsSlice = createSlice(
                     state.mainComments = action.payload
                 })
                 .addCase(postComment.fulfilled, (state, action: PayloadAction<Comment>) => {
-                    console.log(action.payload)
                     state.comments.push(action.payload)
                 })
 

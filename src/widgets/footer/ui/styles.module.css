@@ -25,10 +25,16 @@
 }
 
 .footer__block {
-    cursor: pointer;
     display: flex;
     gap: 50px;
     align-items: end;
+}
+
+.footer__block svg:hover {
+    cursor: pointer;
+    path {
+        fill: #6C5FBC;
+    }
 }
 
 .footer__copy {

@@ -12,7 +12,7 @@ function BannerPurchases() {
                     Control <span>Purchases</span> Via Dashboard
                 </h2>
                 <div className={styles.purchases__items}>
-                    <DashboardItem title={'Chicken Hell'} status={'On The Way'} time={'3:09 PM'} image={purcha1} first={true}/>
+                    <DashboardItem title={'Chicken Hell'} status={'On The Way'} time={'3:09 PM'} image={purcha1}/>
                     <DashboardItem title={'Swe Dish'} status={'Delivered'} time={'Yesterday'} image={purcha2}/>
                     <DashboardItem title={'Fish Hell Veg'} status={'Cancelled'} time={'Yesterday'} image={purcha3}/>
                 </div>
