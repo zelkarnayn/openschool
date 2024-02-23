@@ -16,7 +16,7 @@ function QualityBlock() {
                 </li>
             </ul>
             <div className={styles.enjoyBlock__buttons}>
-                <CustomButton direct={true}>Download</CustomButton>
+                <div style={{width: '185px'}}><CustomButton direct={true}>Download</CustomButton></div>
                 <img className={styles.enjoyBlock__image} src={vector} alt={'vector'}/>
             </div>
         </div>

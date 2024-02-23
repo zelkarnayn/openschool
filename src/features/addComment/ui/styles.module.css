@@ -1,0 +1,28 @@
+.addcomment__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.addcomment__input {
+    resize: none;
+    vertical-align: top;
+    padding: 25px;
+    height: 345px;
+    border-radius: 20px;
+    border: 2px solid #6C5FBC;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: #030314;
+    font-size: 18px;
+}
+
+.addcomment__input::placeholder {
+    color: #B6B6B6;
+}
+
+.addcomment__button {
+    width: 495px;
+}

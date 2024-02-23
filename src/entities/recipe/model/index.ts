@@ -1,15 +1,6 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import axios from "axios";
-
-export  interface RecipeCardType {
-    id?: number
-    name: string
-    image: string
-    rating: number
-    mealType: string[]
-    prepTimeMinutes: number
-}
-
+import {RecipeCardType} from "../@types/recipe";
 
 type InitialStateType = {
     recipes: RecipeCardType[],

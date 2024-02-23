@@ -4,7 +4,7 @@ import Footer from "../widgets/footer/ui";
 import MainPage from "../pages/mainPage.tsx";
 import {Route, Routes} from "react-router-dom";
 import ArticlesPagination from "../widgets/articles/pagination/ui";
-import OneArticle from "../widgets/articles/oneArticle/ui";
+import OneArticle from "../widgets/articles/fullArticle/ui";
 
 function App() {
 

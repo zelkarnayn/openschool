@@ -32,7 +32,8 @@
         font-family: Poppins-Regular, sans-serif;
         color: #686868;
         font-size: 20px;
-        width: 1150px;
+        width: 100%;
+        line-height: 32px;
 }
 
 .question__details[open] > summary::after {

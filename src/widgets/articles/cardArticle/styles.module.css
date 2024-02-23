@@ -1,6 +1,5 @@
 .card__wrapper {
     width: 350px;
-    height: 235px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -9,7 +8,6 @@
     box-shadow: 0 0 80px #c4c4c4;
     padding: 25px 20px;
     box-sizing: border-box;
-    gap: 25px;
 
     header {
         width: 300px;
@@ -42,6 +40,7 @@
 }
 
 .card__text {
+    margin-top: 25px;
     flex-direction: column;
     font-family: Poppins-Regular, sans-serif;
     font-size: 18px;

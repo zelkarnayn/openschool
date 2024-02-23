@@ -17,8 +17,8 @@ function EnjoyBlock() {
                 <span> Get a $20 bonus.</span>
             </div>
             <div className={styles.enjoyBlock__buttons}>
-                <CustomButton primary={true}>Get Started</CustomButton>
-                <CustomButton light={true}>Go Pro</CustomButton>
+                <div style={{width: '155px'}}><CustomButton primary={true}>Get Started</CustomButton></div>
+                <div><CustomButton light={true}>Go Pro</CustomButton></div>
             </div>
         </div>
     );

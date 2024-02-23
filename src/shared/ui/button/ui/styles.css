@@ -2,7 +2,7 @@
     font-size: 16px;
     font-family: Poppins-Medium, sans-serif;
     letter-spacing: 1px;
-    min-width: 110px;
+    width: 100%;
     padding: 0 25px;
     height: 60px;
     cursor: pointer;
@@ -16,9 +16,19 @@
     color: #F9F9F9;
 }
 
+.custom-button.primary:hover {
+    background-color: #F9F9F9;
+    color: #6C5FBC;
+}
+
 .custom-button.light {
     background-color: #F9F9F9;
     color: #6C5FBC;
+}
+
+.custom-button.light {
+    background-color: #6C5FBC;
+    color: #F9F9F9;
 }
 
 .custom-button.direct {
@@ -29,3 +39,9 @@
     background-color: #6C5FBC;
     color: #F9F9F9;
 }
+
+.custom-button.direct {
+    background-color: #6C5FBC;
+    color: #F9F9F9;
+}
+

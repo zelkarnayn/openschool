@@ -1,10 +1,10 @@
 import styles from './styles.module.css'
-import BannerEnjoy from "../widgets/bannerEnjoy/ui";
-import BannerFeature from "../widgets/bannerFeature/ui";
-import BannerQuality from "../widgets/bannerQuality/ui";
-import BannerPurchases from "../widgets/bannerPurchases/ui";
+import BannerEnjoy from "../widgets/enjoyBlock/ui";
+import BannerFeature from "../widgets/featureBlock/ui";
+import BannerQuality from "../widgets/qualityBlock/ui";
+import BannerPurchases from "../widgets/purchasesBlock/ui";
 import CustomerSay from "../widgets/customerSay/ui";
-import Questions from "../widgets/questions/ui";
+import Questions from "../widgets/questionsBlock/ui";
 import LunchTop from "../widgets/lunchTop/ui";
 
 function MainPage() {
