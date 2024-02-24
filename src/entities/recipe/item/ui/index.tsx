@@ -12,9 +12,7 @@ type Recipe = {
 function RecipeItem({image, category, rating, timeCount, title}: Recipe) {
     return (
         <div className={styles.recipe__wrapper}>
-            <div className={styles.recipe__image}>
-                <img src={image} alt={title}/>
-            </div>
+                <img src={image} alt={title} className={styles.recipe__image}/>
             <main>
                 <div className={styles.recipe__tags}>
                     {category.map((item, index) =>

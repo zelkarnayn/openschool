@@ -5,8 +5,8 @@ import {useEffect} from "react";
 import {getOneArticle} from "../../model";
 import {getAllComments} from "../../../../entities/comment/model";
 import AuthorArticleFull from "../../../../features/author/authorFull";
-import AddComment from "../../../../features/addComment/ui";
 import {useAppDispatch, useAppSelector} from "../../../../app/store/hooks/hooks.ts";
+import IndexAddComment from "../../../../features/addComment";
 function OneArticle() {
     const { postId }: Readonly<Params<string>> = useParams()
     const dispatch = useAppDispatch()
@@ -39,7 +39,7 @@ function OneArticle() {
                 <h5>Comments</h5>
                 {comments.map((item) => <CommentItem key={item.id} username={item.user.username} body={item.body}/>)}
             </div>
-            {postId && <AddComment postId={postId} userId={oneArticle.userId}/>}
+            {postId && <IndexAddComment postId={postId} userId={oneArticle.userId}/>}
         </div>
     );
 }

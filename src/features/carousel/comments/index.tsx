@@ -1,16 +1,7 @@
-import {useDispatch, useSelector} from "react-redux";
-import {useEffect} from "react";
-import {getMainComments} from "../../../entities/comment/model";
 import ScrollCarousel from "scroll-carousel-react";
 import styles from "../../../entities/comment/item/styles.module.css";
-function CarouselComments() {
-    const comments = useSelector((state) => state.comments.mainComments)
-    const dispatch = useDispatch()
-
-    useEffect(() => {
-        dispatch(getMainComments())
-    }, [dispatch]);
-
+import {Comment} from "../../../entities/comment/@types/comment";
+function CarouselComments({comments}: {comments: Comment[]}) {
     return (
         <div className={styles.comments__wrapper}>
             {comments.length && <ScrollCarousel

@@ -1,16 +1,7 @@
 import styles from './styles.module.css'
 import RecipeItem from "../../../entities/recipe/item/ui";
-import {useEffect} from "react";
-import {getRecipesByMealType} from "../../../entities/recipe/model";
-import {useAppDispatch, useAppSelector} from "../../../app/store/hooks/hooks.ts";
-function LunchTop() {
-    const recipes = useAppSelector((state) => state.recipes.recipes)
-    const dispatch = useAppDispatch()
-
-    useEffect(() => {
-        dispatch(getRecipesByMealType())
-    }, [dispatch]);
-
+import {RecipeCardType} from "../../../entities/recipe/@types/recipe";
+function LunchTop({recipes}: {recipes: RecipeCardType[]}) {
     return (
         <div className={styles.recipes__wrapper} id='ourtop'>
             <h3>
