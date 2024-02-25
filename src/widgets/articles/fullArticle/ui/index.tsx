@@ -10,7 +10,7 @@ import IndexAddComment from "../../../../features/addComment";
 function OneArticle() {
     const { postId }: Readonly<Params<string>> = useParams()
     const dispatch = useAppDispatch()
-    const oneArticle= useAppSelector((state) => state.articles.onePost)
+    const oneArticle = useAppSelector((state) => state.articles.onePost)
     const comments = useAppSelector((state) => state.comments.comments)
 
     useEffect(() => {

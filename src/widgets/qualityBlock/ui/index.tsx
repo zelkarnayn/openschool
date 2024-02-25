@@ -1,4 +1,4 @@
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 import mobile from '../static/Mobile.svg'
 import QualityBlock from "./qualityBlock";
 function BannerQuality() {
