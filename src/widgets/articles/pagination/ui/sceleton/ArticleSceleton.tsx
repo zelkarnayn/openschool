@@ -2,6 +2,7 @@ import ContentLoader from "react-content-loader"
 
 const ArticleSceleton = () => (
     <ContentLoader
+        id={'sceleton'}
         speed={2}
         width={350}
         height={250}

@@ -4,10 +4,9 @@ import Footer from "../widgets/footer/ui";
 import MainPage from "../pages/mainPage.tsx";
 import {Route, Routes} from "react-router-dom";
 import ArticlesPagination from "../widgets/articles/pagination/ui";
-import OneArticle from "../widgets/articles/fullArticle/ui";
+import OneArticle from "../widgets/articles/full/ui";
 
 function App() {
-
   return (
     <div className='App'>
         <Header/>

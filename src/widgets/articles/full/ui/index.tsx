@@ -2,9 +2,9 @@ import styles from './styles.module.css'
 import {Link, Params, useParams} from "react-router-dom";
 import CommentItem from "../../../../entities/comment/item";
 import {useEffect} from "react";
-import {getOneArticle} from "../../model";
+import {getOneArticle} from "../../../../entities/articles/model";
 import {getAllComments} from "../../../../entities/comment/model";
-import AuthorArticleFull from "../../../../features/author/authorFull";
+import AuthorArticleFull from "../../../../entities/author/authorFull";
 import {useAppDispatch, useAppSelector} from "../../../../app/store/hooks/hooks.ts";
 import IndexAddComment from "../../../../features/addComment";
 function OneArticle() {

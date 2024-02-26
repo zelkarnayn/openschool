@@ -1,5 +1,5 @@
 import {configureStore} from "@reduxjs/toolkit";
-import articlesSlice from '../../widgets/articles/model/index.ts'
+import articlesSlice from '../../entities/articles/model/index.ts'
 import commentsSlice from '../../entities/comment/model/index.ts'
 import recipesSlice from '../../entities/recipe/model/index.ts'
 

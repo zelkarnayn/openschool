@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
-import star from "../../../widgets/articles/cardArticle/static/Star.svg";
+import star from "../../articles/card/static/Star.svg";
 import {useEffect, useState} from "react";
 import {IAuthor} from "../@types/author";
-import {IArticle} from "../../../widgets/articles/@types/article";
+import {IArticle} from "../../articles/@types/article";
 
 function AuthorArticleFull({oneArticle}: {oneArticle: IArticle}) {
     const [author, setAuthor] = useState<IAuthor>()

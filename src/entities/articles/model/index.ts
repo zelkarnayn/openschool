@@ -28,7 +28,7 @@ const initialState: InitialState = {
     error: ''
 }
 
-export const getArticleCards = createAsyncThunk<IPosts, {skip: number}, {rejectValue: string}>('articles-cardArticle/get',
+export const getArticleCards = createAsyncThunk<IPosts, {skip: number}, {rejectValue: string}>('articles-card/get',
     async ({skip = 0}: {skip: number}, thunkAPI) => {
     try {
         const res = await axios.get(`https://dummyjson.com/posts?limit=12&skip=${skip}&select=title,reactions,tags,body,userId`)

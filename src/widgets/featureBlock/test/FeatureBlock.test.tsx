@@ -1,4 +1,4 @@
-import {cleanup, render, screen} from "@testing-library/react";
+import {cleanup, render } from "@testing-library/react";
 import BannerFeature from "../ui";
 import {it} from "vitest";
 
@@ -9,8 +9,7 @@ test("Render feature banner", () => {
     expect(true).toBeTruthy()
 })
 
-it('test', () => {
-    render(<BannerFeature/>)
-    const we = screen.queryByText(/we/i)
-    expect(we).toMatchSnapshot()
+it('Snapshot Feature Banner', () => {
+    const banner = render(<BannerFeature/>)
+    expect(banner).toMatchSnapshot()
 })

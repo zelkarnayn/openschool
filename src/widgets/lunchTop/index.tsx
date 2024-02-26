@@ -11,7 +11,6 @@ function IndexTopLunch() {
     useEffect(() => {
         dispatch(getRecipesByMealType())
     }, [dispatch]);
-    console.log(recipes)
     return (
         <>
             <LunchTop recipes={recipes}/>
