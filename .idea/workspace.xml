@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d013e362-dde6-41d3-a5ab-e1fbbcd6424b" name="Changes" comment="feat: 'feat: Закончена работа над тестированием'" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2c7xLtxr2YqipXkzjfQgCU5q4p1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Jest.Hello (1).executor": "Run",
+    "Jest.Hello (2).executor": "Run",
+    "Jest.Hello.executor": "Run",
+    "Jest.MyComponent.executor": "Run",
+    "Jest.Render QualityBanner.executor": "Run",
+    "Jest.Render feature banner.executor": "Run",
+    "Jest.Renders download button.executor": "Run",
+    "Jest.Renders quality.executor": "Run",
+    "Jest.Snap (1).executor": "Run",
+    "Jest.Snap.executor": "Run",
+    "Jest.Snapshot of button.executor": "Run",
+    "Jest.demo.executor": "Run",
+    "Jest.hello world.executor": "Run",
+    "Jest.renders correctly.executor": "Run",
+    "Jest.test test (1).executor": "Run",
+    "Jest.test test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Vitest. Test.executor": "Run",
+    "Vitest.App test (1).executor": "Run",
+    "Vitest.App test.Link test.executor": "Run",
+    "Vitest.App test.executor": "Run",
+    "Vitest.Article slice testing.getArticleCards test.executor": "Run",
+    "Vitest.Main test.executor": "Run",
+    "Vitest.Menu test.Link test.executor": "Run",
+    "Vitest.Menu test.executor": "Run",
+    "Vitest.My Login application (1).executor": "Run",
+    "Vitest.My Login application.executor": "Run",
+    "Vitest.My blog application.executor": "Run",
+    "Vitest.OnChange input (1).executor": "Run",
+    "Vitest.OnChange input.clear text on Enter.executor": "Run",
+    "Vitest.OnChange input.executor": "Run",
+    "Vitest.Pagination test.executor": "Run",
+    "Vitest.Pagination test.test.executor": "Run",
+    "Vitest.Questions Banner test.Render Questions Block.executor": "Run",
+    "Vitest.Questions Banner tests.Questions available.executor": "Run",
+    "Vitest.test (1).executor": "Run",
+    "Vitest.test.executor": "Run",
+    "git-widget-placeholder": "finally",
+    "last_opened_file_path": "/Users/zelemhanidrisov/Desktop/openschool/src/entities/author/authorFull",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs.jest.jest_package": "/Users/zelemhanidrisov/Desktop/openschool/node_modules/jest",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm dev.executor": "Run",
+    "npm.test.executor": "Run",
+    "npm.wdio.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/zelemhanidrisov/Desktop/openschool/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/entities/author/authorFull" />
+      <recent name="$PROJECT_DIR$/src/widgets" />
+      <recent name="$PROJECT_DIR$/src/entities/recipe/model" />
+      <recent name="$PROJECT_DIR$/src/entities/comment/model" />
+      <recent name="$PROJECT_DIR$/src/widgets/articles/oneArticle/ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/e2e" />
+      <recent name="$PROJECT_DIR$/src/entities" />
+      <recent name="$PROJECT_DIR$/src/widgets/articles/pagination/ui/sceleton" />
+      <recent name="$PROJECT_DIR$/src/entities/articles" />
+      <recent name="$PROJECT_DIR$/src/widgets/enjoyBanner/stories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Vitest.My blog application">
+    <configuration name="Article slice testing.getArticleCards test" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <vitest-options value="--run" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/entities/articles/test/ArticleSlice.test.tsx" />
+      <test-names>
+        <test-name value="Article slice testing" />
+        <test-name value="getArticleCards test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="My Login application (1)" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <vitest-options value="--run" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/e2e/test.e2e.ts" />
+      <test-names>
+        <test-name value="My Login application" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="My Login application" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <vitest-options value="--run" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/test.e2e.ts" />
+      <test-names>
+        <test-name value="My Login application" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="My blog application" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <vitest-options value="--run" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/e2e/blog.e2e.ts" />
+      <test-names>
+        <test-name value="My blog application" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="npm dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="wdio" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="wdio" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Vitest.My blog application" />
+        <item itemvalue="Vitest.My Login application (1)" />
+        <item itemvalue="npm.wdio" />
+        <item itemvalue="Vitest.My Login application" />
+        <item itemvalue="Vitest.Article slice testing.getArticleCards test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-985749b364ce-JavaScript-WS-233.14015.89" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d013e362-dde6-41d3-a5ab-e1fbbcd6424b" name="Changes" comment="" />
+      <created>1707476365258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707476365258</updated>
+      <workItem from="1707476366260" duration="15031000" />
+      <workItem from="1707506052581" duration="37004000" />
+      <workItem from="1707815652030" duration="23270000" />
+      <workItem from="1708013708662" duration="68799000" />
+      <workItem from="1708549217707" duration="6247000" />
+      <workItem from="1708610787000" duration="89153000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 'Основа готова'">
+      <option name="closed" value="true" />
+      <created>1707838687420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707838687420</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 'Layers'">
+      <option name="closed" value="true" />
+      <created>1707840241720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707840241720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 'feat: Add stories for Storybook'">
+      <option name="closed" value="true" />
+      <created>1707842811730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707842811730</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 'feat/fix: Изменены заголовки, добавлен компонент статей'">
+      <option name="closed" value="true" />
+      <created>1708029931331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708029931331</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: 'feat/fix: Осталось сделать слайдер и типизацию'">
+      <option name="closed" value="true" />
+      <created>1708119130179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708119130179</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 'feat/fix: слайдер готов'">
+      <option name="closed" value="true" />
+      <created>1708167432400</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708167432400</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 'feat/fix: Осталось сделать типизацию'">
+      <option name="closed" value="true" />
+      <created>1708179167372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708179167372</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: 'fix: css '">
+      <option name="closed" value="true" />
+      <created>1708193332201</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708193332201</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: 'fix: Сделана адаптивность '">
+      <option name="closed" value="true" />
+      <created>1708199839021</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708199839021</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: 'fix: Сделана адаптивность '">
+      <option name="closed" value="true" />
+      <created>1708200814331</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708200814331</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: 'fix: Добавлены файлы конфигурации storybook'">
+      <option name="closed" value="true" />
+      <created>1708325282871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708325282871</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: 'Done'">
+      <option name="closed" value="true" />
+      <created>1708549781601</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708549781602</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: 'Done'">
+      <option name="closed" value="true" />
+      <created>1708610744028</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708610744028</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: 'fix/feat: Типизация и новые фишки'">
+      <option name="closed" value="true" />
+      <created>1708709901429</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708709901429</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: 'fix/feat: Небольшие фиксы стилей'">
+      <option name="closed" value="true" />
+      <created>1708713806330</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708713806330</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: 'fix: Исправил ошибки сторибука'">
+      <option name="closed" value="true" />
+      <created>1708773612921</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708773612921</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: 'feat: Настройка vitest завершена'">
+      <option name="closed" value="true" />
+      <created>1708859146784</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708859146784</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: 'feat: Закончена работа над тестированием'">
+      <option name="closed" value="true" />
+      <created>1708973293776</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708973293776</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 'Основа готова'" />
+    <MESSAGE value="feat: 'Layers'" />
+    <MESSAGE value="feat: 'feat: Add stories for Storybook'" />
+    <MESSAGE value="feat: 'feat/fix: Изменены заголовки, добавлен компонент статей'" />
+    <MESSAGE value="feat: 'feat/fix: Осталось сделать слайдер и типизацию'" />
+    <MESSAGE value="feat: 'feat/fix: слайдер готов'" />
+    <MESSAGE value="feat: 'feat/fix: Осталось сделать типизацию'" />
+    <MESSAGE value="feat: 'fix: css '" />
+    <MESSAGE value="feat: 'fix: Сделана адаптивность '" />
+    <MESSAGE value="feat: 'fix: Добавлены файлы конфигурации storybook'" />
+    <MESSAGE value="feat: 'Done'" />
+    <MESSAGE value="feat: 'fix/feat: Типизация и новые фишки'" />
+    <MESSAGE value="feat: 'fix/feat: Небольшие фиксы стилей'" />
+    <MESSAGE value="feat: 'fix: Исправил ошибки сторибука'" />
+    <MESSAGE value="feat: 'feat: Настройка vitest завершена'" />
+    <MESSAGE value="feat: 'feat: Закончена работа над тестированием'" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 'feat: Закончена работа над тестированием'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/widgets/footer/ui/index.tsx</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

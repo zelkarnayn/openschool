@@ -1,0 +1,360 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Questions Banner tests > Snapshot Questions Block 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_questions__wrapper_25edd1"
+        id="faq"
+      >
+        <h3
+          class="_questions__title_25edd1"
+        >
+          Frequently Asked 
+          <span>
+            Questions
+          </span>
+          <img
+            alt="klyaksa"
+            class="_questions__image_25edd1"
+            src="/src/widgets/questionsBlock/ui/static/Illustration 01.svg"
+          />
+        </h3>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              How long does delivery take?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              How Does It Work ?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              How does your food delivery service work?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              What payment options do you accept?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              Do you offer discounts or promotions?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="_questions__wrapper_25edd1"
+        id="faq"
+      >
+        <h3
+          class="_questions__title_25edd1"
+        >
+          Frequently Asked 
+          <span>
+            Questions
+          </span>
+          <img
+            alt="klyaksa"
+            class="_questions__image_25edd1"
+            src="/src/widgets/questionsBlock/ui/static/Illustration 01.svg"
+          />
+        </h3>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              How long does delivery take?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              How Does It Work ?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              How does your food delivery service work?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              What payment options do you accept?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+        <div
+          data-testid="question"
+        >
+          <details
+            class="_question__details_a17b70"
+          >
+            <summary
+              class="_question__summary_a17b70"
+            >
+              Do you offer discounts or promotions?
+            </summary>
+            You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+            <br />
+             What’s The Difference Between Free And Paid Plan ?
+          </details>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_questions__wrapper_25edd1"
+      id="faq"
+    >
+      <h3
+        class="_questions__title_25edd1"
+      >
+        Frequently Asked 
+        <span>
+          Questions
+        </span>
+        <img
+          alt="klyaksa"
+          class="_questions__image_25edd1"
+          src="/src/widgets/questionsBlock/ui/static/Illustration 01.svg"
+        />
+      </h3>
+      <div
+        data-testid="question"
+      >
+        <details
+          class="_question__details_a17b70"
+        >
+          <summary
+            class="_question__summary_a17b70"
+          >
+            How long does delivery take?
+          </summary>
+          You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+          <br />
+           What’s The Difference Between Free And Paid Plan ?
+        </details>
+      </div>
+      <div
+        data-testid="question"
+      >
+        <details
+          class="_question__details_a17b70"
+        >
+          <summary
+            class="_question__summary_a17b70"
+          >
+            How Does It Work ?
+          </summary>
+          You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+          <br />
+           What’s The Difference Between Free And Paid Plan ?
+        </details>
+      </div>
+      <div
+        data-testid="question"
+      >
+        <details
+          class="_question__details_a17b70"
+        >
+          <summary
+            class="_question__summary_a17b70"
+          >
+            How does your food delivery service work?
+          </summary>
+          You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+          <br />
+           What’s The Difference Between Free And Paid Plan ?
+        </details>
+      </div>
+      <div
+        data-testid="question"
+      >
+        <details
+          class="_question__details_a17b70"
+        >
+          <summary
+            class="_question__summary_a17b70"
+          >
+            What payment options do you accept?
+          </summary>
+          You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+          <br />
+           What’s The Difference Between Free And Paid Plan ?
+        </details>
+      </div>
+      <div
+        data-testid="question"
+      >
+        <details
+          class="_question__details_a17b70"
+        >
+          <summary
+            class="_question__summary_a17b70"
+          >
+            Do you offer discounts or promotions?
+          </summary>
+          You Can Get Information By Contacting Our Support Team Have 24/7 Service.
+          <br />
+           What’s The Difference Between Free And Paid Plan ?
+        </details>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
